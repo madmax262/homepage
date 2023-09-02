@@ -346,7 +346,7 @@ td {
     padding: 4px 24px;
     text-align: left;
     font-size: 1.2rem;
-    border-bottom: 1px solid rgba(250, 241, 235, .15);
+    border-bottom: 1px solid rgba(250, 241, 235, .20);
 }
 th:first-child,
 td:first-child {
@@ -437,3 +437,14 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+
+/* video */
+#myVideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
